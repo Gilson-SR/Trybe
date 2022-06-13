@@ -6,12 +6,12 @@ O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendi
     
      Sendo necessário usar variações do comando `find`
 
-* Utilizar os operadores > (maior), >> (maior maior) e | (pipe) no terminal;
+* Utilizar os operadores `>` (maior), `>>` (maior maior) e `|` (pipe) no terminal;
 
 * Alterar as permissões de arquivos e diretórios;
 
-      Sendo necessário o uso de comandos como: `ls -l, ll, chmod`.
+      Sendo necessário o uso de comandos como: ls -l, ll, chmod
 
 * Verificar o status e enviar sinais a processos UNIX;
 
-      Sendo necessário o uso de comandos como: `ps, bg, fg, jobs`
+      Sendo necessário o uso de comandos como: ps, bg, fg, jobs
