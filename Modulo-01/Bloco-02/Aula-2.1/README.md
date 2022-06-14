@@ -4,9 +4,10 @@ O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendi
 
 * Instalar e configurar o Git no meu computador;
 
-    Instalando o Git via terminal com o comando: sudo apt-get install git-all
+    * Instalando o Git via terminal com o comando: 
+    `sudo apt-get install git-all`
 
-    
+
 
 
 * Salvar projetos no repositório Git local;
