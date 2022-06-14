@@ -1,6 +1,6 @@
 # DIA 2.3 - Internet - Entendendo como ela funciona
 
-O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendido sobre Internet e como ela funciona. Com os conceitos ensinados nessa aula me capacitou para:
+O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendido sobre Internet e como ela funciona. Com os conceitos ensinados nessa aula me capacitou a:
 
 * Explicar de forma simples como a internet funciona;
 
