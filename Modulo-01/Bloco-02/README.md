@@ -17,3 +17,11 @@ Os principais pontos abordados serão:
 * Como subir seu repositório local para o GitHub?
 
 * O que é Branch, Merge, Commit?
+
+* Como funciona a Internet
+
+* As peças que montam a Internet
+
+* Modelo cliente-servidor e a estrutura de uma aplicação web
+
+* Quais protocolos mais utilizados e seus métodos

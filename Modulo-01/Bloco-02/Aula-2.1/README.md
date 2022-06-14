@@ -1,4 +1,4 @@
-# DIA 2.1 Git & GitHub - O que é e para que serve
+# DIA 2.1 - Git & GitHub - O que é e para que serve
 
 O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendido sobre Git & GitHub. Para isso aprendi a:
 

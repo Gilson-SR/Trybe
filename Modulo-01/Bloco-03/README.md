@@ -1,5 +1,13 @@
-# BLOCO 3 - HTML E CSS
+# BLOCO 3 - Introdução à HTML & CSS
 
-Esse bloco pertence ao módulo de `fundamentos` do curso da [Trybe](https://www.betrybe.com/). Nesse bloco aprendi sobre as principais tags do HTML para criar a estrutura de páginas web, aprendi a como usar o CSS para estilizar essas tags, usando diferentes formas de selecionar os elementos HTML, e então vi sobre como alterar o posicionamento dos elementos na página e como algumas propriedades específicas alteram as dimensões dos elementos, por último vi sobre o significado que cada elemento HTML carrega e sobre como isso impacta a interpretação do conteúdo da página por robôs e outros elementos da Internet.
+Esse bloco pertence ao módulo de `Fundamentos do Desenvolvimento Web` do curso da [Trybe](https://www.betrybe.com/). Nesse bloco aprendi sobre as:
 
-Tendo isso em mente aqui você encontrará os exercícios que desenvolvi para fixar os conhecimentos que adquiri ao longo desse bloco. Além disso também desenvolvi o projeto ao final de bloco para avaliar tudo o que havia aprendido, você pode acessa-lo [aqui](linkProjetoDoBloco).
+* Principais tags do HTML para criar a estrutura de páginas web, 
+
+* Como usar o CSS para estilizar tags, usar diferentes formas de selecionar os elementos HTML,
+
+* Alterar o posicionamento dos elementos na página e como algumas propriedades específicas alteram as dimensões dos elementos, 
+
+* Semântica que elementos HTML carregam e sobre como isso impacta a interpretação do conteúdo da página por usuários, indexadores de pesquisa e outros elementos da Internet.
+
+Tendo isso em mente aqui você encontrará os exercícios que desenvolvi para fixar os conhecimentos que adquiri ao longo desse bloco. Além disso também desenvolvi o projeto ao final de bloco para avaliar tudo o que havia aprendido, podendo ser acessado [aqui](linkProjetoDoBloco).

@@ -1,4 +1,4 @@
-# DIA 1.4 Unix & Bash - Parte 2
+# DIA 1.4 - Unix & Bash - Parte 2
 
 O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendido sobre Unix & Bash. Sendo assim foi utilizado o Bash para:
 
