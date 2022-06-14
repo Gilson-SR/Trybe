@@ -4,14 +4,25 @@ O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendi
 
 * Instalar e configurar o Git no meu computador;
 
-    * Instalando o Git via terminal com o comando: 
-    `sudo apt-get install git-all`
+    * Instalando o Git via terminal com o comando: `sudo apt-get install git-all`
 
+    * Configurando identidade:
+        * Configurando nome: `git config --global user.name "Seu nome"`
+        * Configurando e-mail: `git config --global user.email seuemail@exemplo.br`
 
-
+    * Confirmação da configuração de identidade: `git config --list`
 
 * Salvar projetos no repositório Git local;
 
-* Controlar as alterações e versões dos meus arquivos 
+    * Inicializar Git na diretório local: `git init`
 
-* Enviar projetos para meu repositório remoto GitHub.
+* Controlar as alterações e versões dos meus arquivos;
+
+    * Adicionar alterações feitas no diretório ativo: `git add exemplo.txt`
+    * Salvando alterações na área de staging: `git commit -m 'mensagem'`
+
+* Enviar projetos para meu repositório remoto GitHub;
+
+    * Sincronizando repositório local e remoto: `git remote add origin "URL do repositório"`
+    * Verificando a URL remota: `git remote -v`
+    * Enviando alterações para o repositório remoto: `git push origin main`
