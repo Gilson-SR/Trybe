@@ -14,7 +14,7 @@ O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendi
 
 * Salvar projetos no repositório Git local;
 
-    * Inicializar Git na diretório local: `git init`
+    * Inicializar Git no diretório local: `git init`
 
 * Controlar as alterações e versões dos meus arquivos;
 
@@ -25,4 +25,4 @@ O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendi
 
     * Sincronizando repositório local e remoto: `git remote add origin "URL do repositório"`
     * Verificando a URL remota: `git remote -v`
-    * Enviando alterações para o repositório remoto: `git push origin main`
+    * Enviando alterações do repositório local para o repositório remoto setando como upstream: `git push -u origin main`
