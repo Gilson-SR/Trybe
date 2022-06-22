@@ -22,32 +22,32 @@ Box Model
 
 --------------------------------------------------------------------------
 
-    .caixa {
-    color: white;
-    display: inline-block;
-    line-height: 50px;
-    text-align: center;
-    vertical-align: top;
-    }
+        .caixa {
+        color: white;
+        display: inline-block;
+        line-height: 50px;
+        text-align: center;
+        vertical-align: top;
+        }
 
-    .width-and-height {
-    height: 50px;
-    width: 50px;
-    }
+        .width-and-height {
+        height: 50px;
+        width: 50px;
+        }
 
-    /* insira na classe abaixo um padding de 20px para aplicá-lo aos itens B, C e D */
-    .padding {
+        /* insira na classe abaixo um padding de 20px para aplicá-lo aos itens B, C e D */
+        .padding {
 
-    }
+        }
 
-    /* insira na classe abaixo uma margem de 30px para aplicá-la aos itens C e D */
-    .margin {
+        /* insira na classe abaixo uma margem de 30px para aplicá-la aos itens C e D */
+        .margin {
 
-    }
+        }
 
-    /* insira na classe abaixo uma borda com valor '5px solid black' para aplicá-la ao item D */
-    .border {
+        /* insira na classe abaixo uma borda com valor '5px solid black' para aplicá-la ao item D */
+        .border {
 
-    }
+        }
     
 * Você provavelmente não conhece algumas das propriedades utilizadas nesse código, mas não tem problema: iremos trabalhá-las mais para frente! Basta se concentrar nas classes que você deve alterar de acordo com as instruções dos comentários.
