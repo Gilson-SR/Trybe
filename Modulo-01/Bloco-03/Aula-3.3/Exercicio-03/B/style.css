@@ -1,0 +1,53 @@
+div {
+    text-align: center;
+    width: 200px;
+}
+div:nth-of-type(1){
+    background-color: blue;
+}
+div:nth-of-type(2){
+    background-color: purple;
+}
+div:nth-of-type(3){
+    background-color: rgb(88, 88, 255);
+    height: 100px;
+}
+div:nth-of-type(4){
+    background-color: rgb(0, 0, 122);
+}
+div:nth-of-type(5){
+    background-color: rgb(157, 157, 255);
+}
+
+div:hover {
+    border: 1px solid black;
+}
+div:nth-of-type(1) h3{
+    color: red;
+}
+div:nth-of-type(2) h3{
+    color: brown;
+}
+div:nth-of-type(3) h3{
+    color: fuchsia;
+}
+div:nth-of-type(4) h3{
+    color: darkgoldenrod;
+}
+div:nth-of-type(5) h3{
+    color: lightcoral;
+}
+/* Impar (odd) par (even) */
+div:nth-of-type(odd) h3{
+    font-style: italic;
+}
+
+
+
+.nome:focus {
+  color: red;
+}
+
+.sobrenome:focus {
+  color: lime;
+}
