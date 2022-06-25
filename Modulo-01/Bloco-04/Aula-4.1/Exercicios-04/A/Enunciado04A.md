@@ -1,6 +1,6 @@
 # Para Fixar
 
-AND (&&)
+Operador AND (`&&`)
 
     1 - Crie uma constante chamada "currentHour" que recebe um número entre 4 e 24 de sua escolha, para representar as horas do dia.
     
