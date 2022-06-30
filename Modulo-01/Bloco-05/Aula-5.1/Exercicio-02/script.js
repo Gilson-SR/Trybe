@@ -1,0 +1,9 @@
+let cabecalho = document.getElementById('header-container').style.backgroundColor = 'mediumseagreen';
+let corpo = document.getElementById('container').style.backgroundColor = 'whitesmoke';
+let naoUrgente = document.getElementsByClassName('no-emergency-tasks')[0].style.backgroundColor = 'moccasin';
+let urgente = document.getElementsByClassName('emergency-tasks')[0].style.backgroundColor = 'salmon';
+let faixaUrgente = document.getElementsByTagName('h3')[0].style.backgroundColor = 'blueviolet';
+let faixaUrgente2 = document.getElementsByTagName('h3')[1].style.backgroundColor = 'blueviolet';
+let faixaNaoUrgente = document.getElementsByTagName('h3')[2].style.backgroundColor = 'black';
+let faixaNaoUrgente2 = document.getElementsByTagName('h3')[3].style.backgroundColor = 'black';
+let rodape = document.querySelector('#footer-container').style.backgroundColor = 'darkslategrey';
