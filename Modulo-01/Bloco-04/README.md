@@ -1,4 +1,4 @@
-# BLOCO 4 - Introdução ao JavaScript
+# BLOCO 4 - Introdução ao JavaScript e Lógica de Programação
 
 Esse bloco pertence ao módulo de `Fundamentos do Desenvolvimento Web` do curso da [Trybe](https://www.betrybe.com/). Nesse bloco aprendi sobre:
 
@@ -8,7 +8,7 @@ Esse bloco pertence ao módulo de `Fundamentos do Desenvolvimento Web` do curso 
 
 * Lógica de Programação e Algoritmos; 
 
-* Objetos, for/in e funções;
+* Objetos, for/in, for/of e funções;
 
 
 Tendo isso em mente aqui você encontrará os exercícios que desenvolvi para fixar os conhecimentos que adquiri ao longo desse bloco. Além disso também desenvolvi o projeto ao final de bloco para avaliar tudo o que havia aprendido, podendo ser acessado [aqui](linkProjetoDoBloco).
