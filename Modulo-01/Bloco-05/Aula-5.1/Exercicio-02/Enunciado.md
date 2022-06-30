@@ -5,6 +5,7 @@ DOM - Seletores de elementos
 * Coloque cor do Administrador do Tempo da Trybe como na imagem usando apenas JavaScript!
 
 * crie um arquivo HTML na pasta exercises/5_1 e copie o código abaixo:
+    
     <!DOCTYPE html>
     <html lang="pt-br">
         <head>
@@ -44,7 +45,8 @@ DOM - Seletores de elementos
     </html>
 
 * Crie também um arquivo CSS e copie o código abaixo para adicionar estilo à página. Fique a vontade para soltar a criatividade e alterar o arquivo como desejar!
-    *{
+
+    * {
     margin: 0;
     }
 
