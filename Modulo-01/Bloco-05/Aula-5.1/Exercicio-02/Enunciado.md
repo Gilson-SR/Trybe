@@ -6,7 +6,7 @@ DOM - Seletores de elementos
 
 * crie um arquivo HTML na pasta exercises/5_1 e copie o código abaixo:
     
-    <!DOCTYPE html>
+   ( <!DOCTYPE html>
     <html lang="pt-br">
         <head>
             <meta charset="UTF-8">
@@ -42,7 +42,7 @@ DOM - Seletores de elementos
             </footer>
             <script src="script.js"></script>
         </body>
-    </html>
+    </html> )
 
 * Crie também um arquivo CSS e copie o código abaixo para adicionar estilo à página. Fique a vontade para soltar a criatividade e alterar o arquivo como desejar!
 
