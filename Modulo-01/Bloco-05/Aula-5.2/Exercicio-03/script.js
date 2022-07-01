@@ -1,4 +1,9 @@
-let requisito1 = document.getElementById('pai').appendChild(document.createElement('section')).id = 'novaSectionIrmao';
-let requisito2 = document.getElementById('elementoOndeVoceEsta').appendChild(document.createElement('section')).id = 'novoFilho';
-let requisito3 = document.getElementById('primeiroFilhoDoFilho').appendChild(document.createElement('section')).id = 'novoFilhoDoFilho';
-let requisito4 = document.getElementById('novoFilhoDoFilho').parentNode.parentNode.nextElementSibling;
+let removePrimeiro = document.getElementById('primeiroFilho');
+let removeSegundo = document.getElementById('terceiroFilho');
+let removeTerceiro = document.getElementById('quartoEUltimoFilho');
+let removeQuarto = document.getElementById('segundoEUltimoFilhoDoFilho');
+
+removePrimeiro.parentNode.removeChild(removePrimeiro);
+removeSegundo.parentNode.removeChild(removeSegundo);
+removeTerceiro.parentNode.removeChild(removeTerceiro);
+removeQuarto.parentNode.removeChild(removeQuarto);
