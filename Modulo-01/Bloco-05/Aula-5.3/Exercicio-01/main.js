@@ -4,7 +4,6 @@ const thirdLi = document.getElementById('third-li');
 const input = document.getElementById('input');
 const myWebpage = document.getElementById('my-spotrybefy');
 
-
 // 1. Copie esse arquivo e edite apenas ele;
 // 1.1. Antes de começar os exercícios, use o LiveServer para dar uma olhada em como está a página no navegador.
 // 1.2. Note que uma das caixas está um pouco acima das outras. Por que isso ocorre?
@@ -37,3 +36,39 @@ firstLi.addEventListener('dblclick', resetText);
 // Não precisa passar o parâmetro dentro da callback resetText. O próprio
 // navegador fará esse trabalho por você, não é legal? Desse jeito, o
 // event.target na nossa função retornará o objeto 'firstLi'.
+let seletor;
+
+firstLi.addEventListener('click', function () {
+  firstLi.classList = 'tech'
+  secondLi.classList.remove('tech');
+  thirdLi.classList.remove('tech');
+  seletor = document.querySelector('.tech');
+  firstLi.innerText = input.value;
+})
+secondLi.addEventListener('click', function() {
+  secondLi.classList = 'tech';
+  firstLi.classList.remove('tech');
+  thirdLi.classList.remove('tech')
+  seletor = document.querySelector('.tech');
+  secondLi.innerText = input.value;
+});
+thirdLi.addEventListener('click', function () {
+  thirdLi.classList = 'tech';
+  firstLi.classList.remove('tech');
+  secondLi.classList.remove('tech');
+  seletor = document.querySelector('.tech');
+  thirdLi.innerText = input.value;
+});
+let url = 'https://github.com/Gilson-SR'
+myWebpage.addEventListener('dblclick', function(){
+  open(url);
+})
+
+function abrirPagina(url){
+  const janela = window.open(url, '_blank');
+  janela.focus(); //ter foco na janela
+}
+
+myWebpage.addEventListener('mouseover', function (){
+  myWebpage.style.color = 'red';
+})
