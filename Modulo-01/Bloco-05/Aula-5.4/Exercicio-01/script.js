@@ -1,46 +1,11 @@
-const button = document.getElementById('add-button');
-const input = document.getElementById('phrases-input');
-const list = document.getElementById('phrases-list');
+//Por definição cookie é deletado quando navegador é fechado
 
-function insertPhraseInDOM() {
-  const phrasesList = JSON.parse(localStorage.getItem('phrases'));
-  const listLength = phrasesList.length - 1;
-  const phraseText = phrasesList[listLength];
-  const phrase = document.createElement('li');
-  phrase.innerText = phraseText;
-  list.appendChild(phrase);
-}
+// document.cookie = 'email=exemplo@email.com' //coockie recebe string
 
-function addPhraseToLocalStorage() {
-  const oldList = JSON.parse(localStorage.getItem('phrases'));
-  const phraseText = input.value;
-  oldList.push(phraseText);
-  localStorage.setItem('phrases', JSON.stringify(oldList));
-  insertPhraseInDOM();
-}
+document.cookie = 'email=exemplo@email.com; expires=Tue, 09 Feb 2023 12:00:00 UTC'; // Data de expiração do cookie, para não ser deletado quando navegador é fechado
 
-function initialRenderization() {
-  if (localStorage.getItem('phrases') === null) {
-    localStorage.setItem('phrases', JSON.stringify([]));
-  } else {
-    const phrasesList = JSON.parse(localStorage.getItem('phrases'));
-    const listLength = phrasesList.length - 1;
-    for (let index = 0; index <= listLength; index += 1) {
-      const listElement = document.createElement('li');
-      listElement.innerText = phrasesList[index];
-      list.appendChild(listElement);
-    }
-  }
-}
+// document.cookie = 'email=exemplo@email.com; expires=Tue, 09 Feb 2023 12:00:00 UTC; path/'; // path que dirá ao navegador qual caminho o cookie que você criou pertence. Por padrão, o cookie pertence à página atual.
 
-button.addEventListener('click', addPhraseToLocalStorage);
+const myCookie = document.cookie;
 
-window.onload = function() {
-  initialRenderization();
-};
-
-let nome = ['gilson', 'thayla', 'emilia', 'jaime'];
-console.log(nome.at(-2));
-for (let index = 0; index < nome.at(); index += 1){
-    console.log(index)
-}
+console.log(myCookie);
