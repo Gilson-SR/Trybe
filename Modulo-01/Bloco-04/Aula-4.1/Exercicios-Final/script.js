@@ -64,3 +64,34 @@
     else{
         console.log(`Triangulo: ${false}`);
     }
+
+    
+//Requisito 6
+
+let pecaXadrez = 'joao';
+
+if(pecaXadrez.toLowerCase() === 'peão'){
+    console.log("Peão -> Apenas uma casa para frente, no primeiro movimento podem ser duas casas.");
+}
+else if(pecaXadrez.toLowerCase() === 'cavalo'){
+    console.log('Cavalo -> "L" pode pular sobre as peças.');
+}
+else if(pecaXadrez.toLowerCase() === 'torre'){
+    console.log('Torre -> Horizontal e vertical.');
+}
+else if(pecaXadrez.toLowerCase() === 'bispo'){
+    console.log('Bispo-> Diagonal.');
+}
+else if(pecaXadrez.toLowerCase() === 'rainha'){
+    console.log('Rainha-> Diagonal, horizontal e vertical.');
+}
+else if(pecaXadrez.toLowerCase() === 'rei'){
+    console.log('Rei-> Uma casa apenas para qualquer direção.');
+}
+else{
+    console.log('Peça Inválida!');
+}
+
+//Requisito 7
+
+
